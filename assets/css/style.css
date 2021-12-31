@@ -34,7 +34,7 @@ CSS Table of content:-
 
 ******************
 ***Home Page 2***
-****************** 
+******************
 1. Header Section-Slider Section
 2. About Section
 3. Feature Section
@@ -48,7 +48,7 @@ CSS Table of content:-
 
 ******************
 ***Home Page 3***
-****************** 
+******************
 1. Header Section
 2. Banner Section
 3. Feature Section
@@ -65,7 +65,7 @@ CSS Table of content:-
 
 ******************
 ***Home Page 3***
-****************** 
+******************
 1. Header Section
 2. Banner Section
 3. Feature Section
@@ -82,7 +82,7 @@ CSS Table of content:-
 
 ******************
 ***Home Page 4***
-****************** 
+******************
 1. Header Section
 2. Slider Section
 3. Feature Section
@@ -99,7 +99,7 @@ CSS Table of content:-
 
 ******************
 ***Home Page 5***
-****************** 
+******************
 1. Header Section
 2. Slider Section
 3. About Section
@@ -5136,7 +5136,7 @@ select:visited {
 /*slider area*/
 /*----------------------------------------------------*/
 .nio-dia-banner-section {
-  padding: 350px 0px 460px;
+  padding: 200px 0 460px;
 }
 
 .nio-dia-banner-content .nio-dia-banner-text {
@@ -6139,7 +6139,7 @@ select:visited {
   }
 
   .nio-dia-banner-section {
-    padding: 270px 0px 315px;
+    padding: 200px 0 315px;
   }
 }
 @media screen and (max-width: 991px) {
@@ -6226,7 +6226,7 @@ select:visited {
   }
 
   .nio-dia-banner-section {
-    padding: 205px 0px 250px;
+    padding: 200px 0 250px;
   }
 }
 @media screen and (max-width: 570px) {
@@ -10048,13 +10048,13 @@ select:visited {
 /*----------------------------------------------------*/
 .tparrows:before {
   font-family: 'Font Awesome 5 Free';
-  font-weight: 900; 
+  font-weight: 900;
 }
 .tparrows.tp-rightarrow:before {
-  content: "\f105"; 
+  content: "\f105";
 }
 .tparrows.tp-leftarrow:before {
-  content: "\f104"; 
+  content: "\f104";
 }
 .consb-bredcrumb-section {
   z-index: 1;
@@ -10293,13 +10293,13 @@ select:visited {
   padding: 0 20px;
   margin-bottom: 10px;
   border-radius: 5px;
-  color: #fff; 
+  color: #fff;
 }
 .service-details-sidebar .appointment-form form input::-webkit-input-placeholder {
   color: #fff;
 }
 .service-details-sidebar .appointment-form form input:-ms-input-placeholder {
-  color: #fff; 
+  color: #fff;
 }
 .service-details-sidebar .appointment-form form input::-ms-input-placeholder {
   color: #fff;
@@ -11120,7 +11120,7 @@ select:visited {
   font-size: 18px;
   font-weight: 600;
 }
-@media screen and (max-width: 767px) { 
+@media screen and (max-width: 767px) {
   .consb-bredcrumb-section .bredcrumb-content {
     padding: 120px 0px 150px;
   }
@@ -11128,7 +11128,7 @@ select:visited {
     font-size: 50px;
   }
 }
-@media screen and (max-width: 480px) { 
+@media screen and (max-width: 480px) {
   .consb-bredcrumb-section .bredcrumb-title h2 {
     font-size: 40px;
   }
