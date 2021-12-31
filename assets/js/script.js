@@ -4,7 +4,7 @@
 
 File:           JS Core
 Version:        1.0
-Last change:    00/00/00 
+Last change:    00/00/00
 -------------------------------------------------------------------------------- */
 (function() {
 
@@ -12,7 +12,7 @@ Last change:    00/00/00
 
 	var Consbus = {
 		init: function() {
-			this.Basic.init();  
+			this.Basic.init();
 		},
 
 		Basic: {
@@ -94,7 +94,7 @@ Last change:    00/00/00
 						patterns: {
 						  youtube: {
 							index: 'youtube.com/',
-							id: 'v=', 
+							id: 'v=',
 							src: 'https://www.youtube.com/embed/%id%?autoplay=1'
 						  },
 						},
@@ -273,7 +273,7 @@ Last change:    00/00/00
 								items:4
 							}
 						}
-					});    		
+					});
 				}
 			},
 			NioEigTestimonialSlide: function (){
@@ -333,7 +333,7 @@ Last change:    00/00/00
 								items:3
 							}
 						}
-					});    		
+					});
 				}
 			},
 			NioConMainSlider: function (){
@@ -349,7 +349,7 @@ Last change:    00/00/00
 					animateIn: 'fadeIn',
 				});
 			},
-			NioConSticky: function (){ 
+			NioConSticky: function (){
 				jQuery(window).on('scroll', function() {
 					if (jQuery(window).scrollTop() > 100) {
 						jQuery('.header-style-five').addClass('nio-con-sticky-header-overlay')
@@ -456,7 +456,7 @@ Last change:    00/00/00
 						$(this).removeClass('social-show');
 					} else {
 						$('nio-con-team-img-social.social-show').removeClass('social-show');
-						$(this).addClass('social-show');    
+						$(this).addClass('social-show');
 					}
 				});
 			},
@@ -530,20 +530,24 @@ Last change:    00/00/00
 			},
 			NioDiaMobileMenu: function (){
 				$('.open_nio-dia-mobile_menu').on("click", function() {
+					$('body').toggleClass('nio-dia-mobile_menu_overlay_on');
 					$('.nio-dia-mobile_menu_wrap').toggleClass("nio-dia-mobile_menu_on");
 				});
-				$('.open_nio-dia-mobile_menu').on('click', function () {
+
+				$('.nio-dia-mobile_menu_content .main-navigation .navbar-nav li a').on('click', function() {
 					$('body').toggleClass('nio-dia-mobile_menu_overlay_on');
+					$('.nio-dia-mobile_menu_wrap').toggleClass("nio-dia-mobile_menu_on");
 				});
-				if($('.nio-dia-mobile_menu-dropdown li.dropdown ul').length){
+
+/*				if($('.nio-dia-mobile_menu-dropdown li.dropdown ul').length){
 					$('.nio-dia-mobile_menu-dropdown li.dropdown').append('<div class="dropdown-btn"><span class="fa fa-angle-down"></span></div>');
 					$('.nio-dia-mobile_menu-dropdown li.dropdown .dropdown-btn').on('click', function() {
 						$(this).prev('ul').slideToggle(500);
 					});
-				}
-				$(".dropdown-btn").on("click", function () {
-					$(this).toggleClass("toggle-open");
-				});
+				}*/
+				// $(".dropdown-btn").on("click", function () {
+				// 	$(this).toggleClass("toggle-open");
+				// });
 			},
 			NioDiaSkillProgress: function (){
 				if ($(".progress-bar").length) {
@@ -555,7 +559,7 @@ Last change:    00/00/00
 							var percent = current_item.data('percent');
 							current_item.css('width', percent + '%').addClass('appeared').parent().append('<span>' + percent + '%' + '</span>');
 						}
-						
+
 					});
 				};
 			},
@@ -644,7 +648,7 @@ Last change:    00/00/00
 							var percent = current_item.data('percent');
 							current_item.css('width', percent + '%').addClass('appeared').parent().append('<span>' + percent + '%' + '</span>');
 						}
-						
+
 					});
 				};
 			},
@@ -701,7 +705,7 @@ Last change:    00/00/00
 					map.addMarker({
 						lat: $markerLat,
 						lng: $markerLon,
-						icon: $marker,    
+						icon: $marker,
 						infoWindow: {
 							content: $info
 						}
@@ -772,7 +776,7 @@ Last change:    00/00/00
 							var percent = current_item.data('percent');
 							current_item.css('width', percent + '%').addClass('appeared').parent().append('<span>' + percent + '%' + '</span>');
 						}
-						
+
 					});
 				};
 			},
@@ -792,9 +796,9 @@ Last change:    00/00/00
 						var proto = $.circleProgress.defaults,
 						originalDrawEmptyArc = proto.drawEmptyArc;
 
-						proto.emptyThickness = 5; 
+						proto.emptyThickness = 5;
 						proto.drawEmptyArc = function(v) {
-							var oldGetThickness = this.getThickness, 
+							var oldGetThickness = this.getThickness,
 							oldThickness = this.getThickness(),
 							emptyThickness = this.emptyThickness || _oldThickness.call(this),
 							oldRadius = this.radius,
@@ -824,7 +828,7 @@ Last change:    00/00/00
 						fill: {
 							gradient: ['#ffe388', ['#fdb153', 0.7]],
 							gradientAngle: Math.PI * -0.3
-						}  
+						}
 					});
 
 					$('.first.nio-ins-circle').circleProgress({
@@ -852,7 +856,7 @@ Last change:    00/00/00
 					});
 				};
 			},
-			
+
 		}
 	}
 	jQuery(document).ready(function (){
