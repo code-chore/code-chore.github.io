@@ -5240,7 +5240,12 @@ select:visited {
 .nio-dia-intro-content .col-lg-4:nth-child(3) .nio-dia-intro-innerbox {
   background-image: linear-gradient(30deg, #a9bef5 0%, #6a94ed 100%);
 }
-
+.nio-dia-intro-content .col-lg-4:nth-child(4) .nio-dia-intro-innerbox {
+  background-image: linear-gradient(30deg, #ffb391 0%, #e78758 100%);
+}
+.nio-dia-intro-content .col-lg-4:nth-child(5) .nio-dia-intro-innerbox {
+  background-image: linear-gradient(30deg, #afe185 0%, #79b036 100%);
+}
 /*----------------------------------------------------*/
 /*about area*/
 /*----------------------------------------------------*/
@@ -5387,12 +5392,6 @@ select:visited {
 }
 .nio-dia-skill-progress-bar .skill-set-percent:nth-child(3) .progress {
   background-color: #7a9fef;
-}
-.nio-dia-skill-progress-bar .skill-set-percent:nth-child(4) .progress {
-  background-color: #ef9f7a;
-}
-.nio-dia-skill-progress-bar .skill-set-percent:nth-child(5) .progress {
-  background-color: #91bb60;
 }
 /*----------------------------------------------------*/
 /*service area*/
