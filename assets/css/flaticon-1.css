@@ -22,7 +22,7 @@
 }
 
 [class^="flaticon-"]:before, [class*=" flaticon-"]:before,
-[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {
   font-family: Flaticon;
   font-style: normal;
 }
@@ -70,7 +70,7 @@
 .flaticon-041-chemistry-1:before { content: "\f128"; }
 .flaticon-042-tubes:before { content: "\f129"; }
 .flaticon-043-sand-clock:before { content: "\f12a"; }
-.flaticon-044-code:before { content: "\f12b"; }
+.flaticon-044-code:before { content: "\f12b"; padding-left: 17px; }
 .flaticon-045-code-1:before { content: "\f12c"; }
 .flaticon-046-gear:before { content: "\f12d"; }
 .flaticon-047-compass:before { content: "\f12e"; }
@@ -81,7 +81,7 @@
 .flaticon-052-cpu:before { content: "\f133"; }
 .flaticon-053-crop:before { content: "\f134"; }
 .flaticon-054-headphones:before { content: "\f135"; }
-.flaticon-055-curriculum:before { content: "\f136"; }
+.flaticon-055-curriculum:before { content: "\f136"; padding-left: 16px; }
 .flaticon-056-pendrive:before { content: "\f137"; }
 .flaticon-057-calendar-1:before { content: "\f138"; }
 .flaticon-058-calendar-2:before { content: "\f139"; }
@@ -176,7 +176,7 @@
 .flaticon-147-presentation:before { content: "\f192"; }
 .flaticon-148-profile:before { content: "\f193"; }
 .flaticon-149-profile-1:before { content: "\f194"; }
-.flaticon-150-book-1:before { content: "\f195"; }
+.flaticon-150-book-1:before { content: "\f195"; padding-left: 20px; }
 .flaticon-151-recycle:before { content: "\f196"; }
 .flaticon-152-recycle-1:before { content: "\f197"; }
 .flaticon-153-recycle-2:before { content: "\f198"; }
