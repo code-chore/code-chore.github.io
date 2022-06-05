@@ -5251,7 +5251,6 @@ select:visited {
 /*----------------------------------------------------*/
 .nio-dia-about-section {
   overflow: visible;
-  padding-top: 120px;
 }
 .nio-dia-about-section .nio-dia-about-bg1 {
   top: -190px;
@@ -5397,7 +5396,7 @@ select:visited {
 /*service area*/
 /*----------------------------------------------------*/
 .nio-dia-service-section {
-  padding: 140px 0px 30px;
+  padding: 100px 0 30px;
 }
 .nio-dia-service-section .nio-dia-service-bg {
   left: 0;
@@ -5628,6 +5627,7 @@ select:visited {
 
 .nio-dia-why-choose-us-wrapper {
   width: 580px;
+  padding-top: 80px;
 }
 
 .nio-dia-why-choose-us-content {
@@ -5916,7 +5916,7 @@ select:visited {
 }
 .nio-dia-footer-newslatter-wrapper .nio-dia-footer-newslatter-form form {
   width: 100%;
-  margin-top: 35px;
+  margin-top: 55px;
   position: relative;
   display: inline-block;
 }
